@@ -1,10 +1,5 @@
 from typing import DefaultDict, Dict, Iterable, List, Set, Tuple
-
-def input_to_list(path: str):
-    with open(path, 'r') as f:
-        result: List[int] = list(map(lambda x: int(x), f.read().splitlines()))
-    print(f"found {len(result)} entries")
-    return result
+from advent_utils import input_to_list
 
 def twoSum(l: List[int], sum: int) -> Tuple[int, int]:
     store: Set[int] = set()
