@@ -22,4 +22,17 @@ for x,y in speeds:
     trees = toboggan_1(x,y, input_course)
     alltrees.append(trees)
     print(f"encountered {trees} with slope ({x},{y})")
-print(reduce(lambda x, y: x * y, alltrees))
+print(reduce(lambda x, y: x * y, alltrees, 1))
+#%%
+from advent_utils import input_to_str_list
+my_l = input_to_str_list('day4/smol.txt')
+print(my_l)
+# %%
+from day4 import valid_passports , extra_valid
+valids = valid_passports('day4/input.txt')
+print(f"there are {valids} valid passports")
+# %%
+from day4 import extra_valid
+xtra_valids = extra_valid('day4/input.txt')
+print(f"there are {xtra_valids} xtra valid passports")
+# %%

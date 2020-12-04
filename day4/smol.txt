@@ -1,0 +1,16 @@
+byr:1971
+ecl:hzl pid:112040163
+eyr:2023 iyr:2019
+hcl:#b6652a hgt:167cm
+
+pid:108667812 eyr:2023 hcl:#623a2f hgt:171cm iyr:2018 ecl:amb byr:1993
+
+hcl:#cfa07d iyr:2014 ecl:blu eyr:2023 cid:304 hgt:70in byr:1961
+
+byr:1977
+hcl:#b6652a
+iyr:2017 ecl:oth pid:703877876 hgt:185cm
+
+byr:1972
+cid:271
+iyr:2016 pid:876104259 hgt:173cm eyr:2028 ecl:brn hcl:#733820
